@@ -1,8 +1,10 @@
 name: Docker Image CI
 
 on:
-  push: # Triggers on any push event
-  pull_request: # Triggers on any pull request event
+  workflow_dispatch:
+
+  permissions: write-all
+
 
 jobs:
 
